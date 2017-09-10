@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace rekenen
 {
     /// <summary>
@@ -23,6 +22,12 @@ namespace rekenen
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnOptellen_Click(object sender, RoutedEventArgs e)
+        {
+            classRekenen myFunctie = new classRekenen();
+            lblUitkomst.Content = myFunctie.Optellen(int.Parse(txtGetal1.Text), int.Parse(txtGetal2.Text));
         }
     }
 }
