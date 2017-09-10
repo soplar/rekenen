@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rekenen", "rekenen\rekenen.csproj", "{4DF32EC1-8F88-4383-B661-6D46B22423E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rekenenTests", "rekenenTests\rekenenTests.csproj", "{BD74494A-2785-49C5-922F-963B108C46C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4DF32EC1-8F88-4383-B661-6D46B22423E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF32EC1-8F88-4383-B661-6D46B22423E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF32EC1-8F88-4383-B661-6D46B22423E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD74494A-2785-49C5-922F-963B108C46C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD74494A-2785-49C5-922F-963B108C46C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD74494A-2785-49C5-922F-963B108C46C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD74494A-2785-49C5-922F-963B108C46C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

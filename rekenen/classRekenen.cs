@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace rekenen
 {
-    class classRekenen
+    public class classRekenen
     {
         public int Optellen(int getal1, int getal2)
         {
