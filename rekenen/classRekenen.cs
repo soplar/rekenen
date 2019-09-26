@@ -21,6 +21,7 @@ namespace rekenen
         public int Verminigvuldigen(int getal1, int getal2)
         {
             return 16;
+            // code nog maken
         }
     }
 }
