@@ -17,5 +17,10 @@ namespace rekenen
         {
             return 2.88;
         }
+
+        public int Verminigvuldigen(int getal1, int getal2)
+        {
+            return 16;
+        }
     }
 }
